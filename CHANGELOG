@@ -1,5 +1,6 @@
 == X.X.X 2017-XX-XX
-* Fixed the `routingNumber` property of `STPBankAccount` so that it is populated when the information is available
+* Adds an option to allow users to delete payment methods from the `STPPaymentMethodsViewController`. Disabled by default but can enabled using the `canDeletePaymentMethods` property.
+* Fixes the `routingNumber` property of `STPBankAccount` so that it is populated when the information is available
 
 == 11.0.0 2017-06-27
 * We've greatly simplified the integration for `STPPaymentContext`. See MIGRATING.md.
